@@ -1,0 +1,24 @@
+{
+  "name": "Coding4_Eval",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopala1995/Coding4_Eval.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gopala1995/Coding4_Eval/issues"
+  },
+  "homepage": "https://github.com/gopala1995/Coding4_Eval#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4"
+  }
+}
