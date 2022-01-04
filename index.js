@@ -24,7 +24,7 @@ const Prod = mongoose.model("pro",producSchema)
 const app = express()
 
 app.get("/prod",async(req,res)=>{
-    console.log("get listen")
+   // console.log("get listen")
     try{
     const pr = await Prod.find().lean().exec()
     return res.send(pr)
